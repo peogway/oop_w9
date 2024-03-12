@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void switchToAddRocket(View view){
         Intent intent = new Intent (this, AddUserActivity.class);
-        startActivity(intent);
+        startActivity(intent); 
     }
 
     public void switchToListUserInTextView(View view){
